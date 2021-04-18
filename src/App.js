@@ -24,6 +24,7 @@ render() {
   return (
     <div className="App">
       <header className="App-header">
+        <label for="name">Enter something...</label>
       <input type="text" onChange={this.handleText} id="txtName"/>
       <br />
       <button id="btnSave" onClick={this.handleSubmit}>Save</button>
